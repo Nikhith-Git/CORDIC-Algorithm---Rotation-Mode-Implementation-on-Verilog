@@ -440,7 +440,7 @@ test_angle(your_angle, "Your test description");
 - **Valid Propagation**: `valid` signal should propagate through each stage
 - **Data Flow**: Watch X and Y coordinates rotate through pipeline
 
-![Waveform Example](waveforms/cordic_waveform.png)
+![Waveform Example](waveforms/waveform.png)
 *Example: CORDIC computation for 45° angle showing 18-cycle latency*
 
 ## 🔧 Future Improvements
@@ -496,9 +496,6 @@ test_angle(your_angle, "Your test description");
    - [All About Circuits: Fixed-Point Numbers](https://www.allaboutcircuits.com/)
    - IEEE Standards for Fixed-Point Arithmetic
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🤝 Contributing
 
