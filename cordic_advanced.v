@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //==============================================================================
-// Advanced Parameterized CORDIC Engine - Rotation Mode Only
-// Author: [Your Name]
+// CORDIC Engine - Rotation Mode 
+// Author: Nikhith
 // Date: November 2025
 // 
 // Features:
