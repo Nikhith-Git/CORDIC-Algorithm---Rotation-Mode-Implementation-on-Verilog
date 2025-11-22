@@ -361,37 +361,6 @@ vvp cordic_sim
 gtkwave cordic_advanced.vcd
 ```
 
-### Synthesis
-
-For FPGA synthesis (Xilinx Vivado example):
-
-```tcl
-# Add source files
-add_files {cordic_advanced.v}
-
-# Set top module
-set_property top cordic_sincos [current_fileset]
-
-# Set target device
-set_part xc7a35tcpg236-1
-
-# Run synthesis
-synth_design -top cordic_sincos
-```
-
-## 🧪 Testing
-
-### Running All Tests
-
-```bash
-# Using Make
-make test
-
-# Or manually
-iverilog -o sim cordic_advanced.v tb_cordic_advanced.v
-vvp sim > test_results.txt
-```
-
 ### Test Configuration
 
 Modify parameters in `tb_cordic_advanced.v`:
