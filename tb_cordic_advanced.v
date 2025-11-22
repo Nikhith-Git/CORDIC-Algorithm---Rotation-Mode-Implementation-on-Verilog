@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //==============================================================================
-// Comprehensive Testbench for CORDIC - Rotation Mode Only
-// Author: [Your Name]
+// Comprehensive Testbench for CORDIC - Rotation Mode.
+// Author: Nikhith
 // Date: November 2025
 //
 // Test Coverage:
